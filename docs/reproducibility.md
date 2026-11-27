@@ -1,0 +1,7 @@
+# Reproducibility and release review
+
+The recorded Windows GPU run uses Python 3.10.20, PyTorch 2.11.0+cu128, TorchVision 0.26.0+cu128, Ultralytics 8.4.219 and RTX 5080. Companion versions were NumPy 2.2.6, pandas 2.3.3, OpenCV 5.0.0.93, scikit-learn 1.7.2 and PyYAML 6.0.4. The Colab notebook shows PlantCV 4.11.3 and OpenCV 4.11.0.86. Use a separate PlantCV environment because its recorded OpenCV dependency requires at most 4.12. The researcher reported a Colab T4 runtime. PlantCV/OpenCV calls here use CPU operations.
+
+Inputs and outputs are CLI arguments. On Colab, mount Drive from the stage notebook and set the paths. On Windows, use the existing local environments. Data-producing commands write to a new directory. YOLO stages a private working copy to isolate caches. The archive hash check covers the four originals and their exact copies.
+
+The proposed release contains source code, cleared entry-point notebooks, example paths and settings, aggregate figures/results and tests. Keep original notebooks, CSVs, polygon TXT exports, per-image results, source images, weights and credentials local. AGPL-3.0 is a candidate subject to confirmation of code rights and Ultralytics terms. PlantCV is MPL-2.0. Local dataset and export rights are separate. [Ultralytics license](https://www.ultralytics.com/license) · [PlantCV license](https://github.com/danforthcenter/plantcv/blob/main/LICENSE) · [Roboflow licensing](https://roboflow.com/licensing)

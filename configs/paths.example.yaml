@@ -1,0 +1,9 @@
+# Examples for CLI arguments. Set paths for the machine running the analysis.
+windows:
+  original_dataset: 'C:/path/to/five_class'
+  one_class_dataset: 'C:/path/to/one_class'
+  output_parent: './private_data'
+colab:
+  original_dataset: '/content/drive/MyDrive/research/five_class'
+  one_class_dataset: '/content/drive/MyDrive/research/one_class'
+  output_parent: '/content/drive/MyDrive/research/reproductions'

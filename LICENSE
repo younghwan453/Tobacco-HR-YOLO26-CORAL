@@ -1,0 +1,7 @@
+License decision pending
+
+This is a local release candidate. This file does not grant a license.
+The owner should confirm rights in the research code and the proposed
+aggregate figure before selecting terms. See docs/reproducibility.md.
+The source datasets, annotations, rating records and checkpoints are
+outside this proposed release.

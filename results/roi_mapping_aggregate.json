@@ -1,0 +1,24 @@
+{
+  "rated_images": 86,
+  "matched_images": 86,
+  "rated_images_without_matches": 0,
+  "sites": 516,
+  "consensus_sites": 514,
+  "sites_without_consensus": 2,
+  "sites_without_proposed_polygons": 167,
+  "sites_with_multiple_proposals": 28,
+  "total_polygons": 379,
+  "outside_roi": 0,
+  "ambiguous": 19,
+  "no_consensus": 2,
+  "linked": 358,
+  "images_without_rating_id": 0,
+  "missing_label_files": 0,
+  "linked_train_polygons_by_grade": {
+    "0": 42,
+    "1": 54,
+    "2": 43,
+    "3": 37,
+    "4": 88
+  }
+}

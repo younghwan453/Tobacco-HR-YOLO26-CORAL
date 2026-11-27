@@ -1,0 +1,55 @@
+# Historical settings for 261127coral.ipynb.
+roboflow_gt:
+  grades:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  feature_count: 32
+  min_mask_pixels: 20
+  seed: 42
+  batch_size: 64
+  max_epochs: 250
+  patience: 35
+  learning_rate: 0.001
+  weight_decay: 0.001
+  balanced_sampler: false
+  best_epoch: 237
+  features:
+  - mask_area_fraction
+  - mask_bbox_fraction
+  - mask_width_fraction
+  - mask_height_fraction
+  - mask_aspect
+  - mask_compactness
+  - mask_solidity
+  - mask_perimeter_norm
+  - red_mean
+  - green_mean
+  - blue_mean
+  - red_std
+  - green_std
+  - blue_std
+  - hue_mean
+  - hue_std
+  - sat_mean
+  - sat_std
+  - val_mean
+  - val_std
+  - lab_l_mean
+  - lab_a_mean
+  - lab_b_mean
+  - lab_l_std
+  - lab_a_std
+  - lab_b_std
+  - white_fraction
+  - yellow_fraction
+  - brown_fraction
+  - green_fraction
+  - edge_density
+  - texture_laplacian
+yolo_inference:
+  imgsz: 960
+  conf: 0.15
+  iou: 0.7

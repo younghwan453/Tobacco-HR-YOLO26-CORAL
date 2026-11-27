@@ -1,0 +1,5 @@
+training_config: ../03_yolo_segmentation/training_config.yaml
+evaluation:
+  split: test
+  # The historical val call inherited image size and batch from Ultralytics.
+  device: '0'
